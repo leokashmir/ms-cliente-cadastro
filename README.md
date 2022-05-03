@@ -12,7 +12,7 @@ API Rest contendo operações e fluxo completo, para cadastro e manutenção de 
 - SpringData      -> https://spring.io/projects/spring-data
 - Lombok          -> https://projectlombok.org/
 - Hibernate       -> https://hibernate.org/
-- H2 (Ee Memoria) -> https://www.h2database.com/html/main.html
+- H2 (Em Memoria) -> https://www.h2database.com/html/main.html
 
 
 ## Serviços
