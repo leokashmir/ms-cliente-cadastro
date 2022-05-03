@@ -28,7 +28,7 @@ API Rest contendo operações e fluxo completo, para cadastro e manutenção de 
 ## Documentação
 https://documenter.getpostman.com/view/16523713/UyrHfYfm
 
-## Swagger - Local Porta 8080
+## Swagger - Localhost
 http://localhost:8080/clientes/swagger-ui/index.html
   
 ## Executar projeto (Maven)
