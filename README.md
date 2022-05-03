@@ -32,7 +32,9 @@ https://documenter.getpostman.com/view/16523713/UyrHfYfm
   
 ## Executar projeto (Maven)
 1 - Entrar na pasta do projeto
+
 2 - mvn clean package
+
 3 - java -jar target/ms-cliente-cadastro-0.0.1-SNAPSHOT.jar
 
 
