@@ -19,7 +19,7 @@ API Rest contendo operações e fluxo completo, para cadastro e manutenção de 
 
 | Metodo  |  End Point  | Descrição |
 | ------------| ---------|---------|
-|  POST  | /v1/add     | Cria o Cadastro do Cliente juntamente com seu(s) Pets |
+|  POST  | /v1/add     | Cria o Cadastro do Cliente  |
 |  GET  |  /v1/find     | Obtém a informação de um Cliente |
 |  GET  |  /v1/list   | Obtém a lista de todos os clientes |
 |  DELETE  |  /v1/{id}     | Exclui o Cadastro do Cliente. |
