@@ -19,11 +19,11 @@ API Rest contendo operações e fluxo completo, para cadastro e manutenção de 
 
 | Metodo  |  End Point  | Descrição |
 | ------------| ---------|---------|
-|  POST  | /v1/add     | Cria o Cadastro do Cliente  |
-|  GET  |  /v1/find     | Obtém a informação de um Cliente |
-|  GET  |  /v1/list   | Obtém a lista de todos os clientes |
-|  DELETE  |  /v1/{id}     | Exclui o Cadastro do Cliente. |
-|  PUT  |  /v1/edit     | Atualiza o Cadastro do Cliente. |
+|  POST  | /clientes/v1/add     | Cria o Cadastro do Cliente  |
+|  GET  |  /clientes/v1/find     | Obtém a informação de um Cliente |
+|  GET  |  /clientes/v1/list   | Obtém a lista de todos os clientes |
+|  DELETE  |  /clientes/v1/{id}     | Exclui o Cadastro do Cliente. |
+|  PUT  |  /clientes/v1/edit     | Atualiza o Cadastro do Cliente. |
 
 ## Documentação
 https://documenter.getpostman.com/view/16523713/UyrHfYfm
