@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "cdd0d4a0-cc4e-49a5-aeff-04f9bbfdfa45",
+		"name": "Cliente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "find",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "document",
+						"value": "16485495667",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{Host}}/clientes/v1/find",
+					"host": [
+						"{{Host}}"
+					],
+					"path": [
+						"clientes",
+						"v1",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \r\n        \"nome\": \"dfheste07\",\r\n        \"cpf\": \"05804659189\",\r\n        \"dataNascimento\": \"2000-11-10\",\r\n        \"sexo\": \"M\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Host}}/clientes/v1/add",
+					"host": [
+						"{{Host}}"
+					],
+					"path": [
+						"clientes",
+						"v1",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "del",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Host}}/clientes/v1/del/22",
+					"host": [
+						"{{Host}}"
+					],
+					"path": [
+						"clientes",
+						"v1",
+						"del",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": 1,\r\n        \"nome\": \"Fulano78979\",\r\n        \"cpf\": \"09845683757\",\r\n        \"dataNascimento\": null,\r\n        \"sexo\": \"M\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Host}}/clientes/v1/edit",
+					"host": [
+						"{{Host}}"
+					],
+					"path": [
+						"clientes",
+						"v1",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Host}}/clientes/v1/list?page=0&size=12&sort=id,desc",
+					"host": [
+						"{{Host}}"
+					],
+					"path": [
+						"clientes",
+						"v1",
+						"list"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "12"
+						},
+						{
+							"key": "sort",
+							"value": "id,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

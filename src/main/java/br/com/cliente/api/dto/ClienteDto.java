@@ -39,7 +39,7 @@ public class ClienteDto {
 
 
     @Schema(description = "Sexo do Cliente.",
-            example = "F", required = true)
+            example = "M", required = true)
     @NotNull(message = "Campo Sexo é obrigatorio.")
     private char sexo;
 }
